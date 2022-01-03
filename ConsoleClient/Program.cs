@@ -6,7 +6,8 @@ namespace MyMessanger_stepik
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            Message ms = new Message();
+            Console.WriteLine(ms.ToString());
         }
     }
 }
